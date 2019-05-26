@@ -46,3 +46,10 @@ ex:
 --- include layouts/app.blade.php content in any page using this command
 
 
+# GIT 
+1, Press F1 in visual studio to open seach panel
+2, Use git clone command to download file in another machine.
+    ex: create new folder ...open the cmd on that folder use the below comment 
+    git clone https://github.com/vinothkumarselvam/laravelcode.git
+
+
