@@ -13,8 +13,9 @@
 --- to hide some information in out application ---
 
 
-# php artisan serve
---- First the ping the public/index.php file ---
+# LARAVEL COMMAND
+--- php artisan serve : First the ping the public/index.php file ---
+--- php artisan route:list : this command is use to see the available routes file  ---
 
 # Controller file 
 app/http/controller file availabel
@@ -37,13 +38,20 @@ ex:
         <h2> Hi Guest</h2>
 @endif
 
+# @extends('layouts.app') 
+--- include layouts/app.blade.php content in any page using this command
+
+
+
+
+
+
 
 # important Points
 1, Laravel doesn't work in offline mode
 2, REST API : Status code information 
 
-# @extends('layouts.app') 
---- include layouts/app.blade.php content in any page using this command
+
 
 
 # GIT 

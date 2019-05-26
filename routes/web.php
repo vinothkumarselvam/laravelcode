@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcome',['user' => 'Laravel Testing','company' => 'Deanta Publishing']);
 });
 
 Route::get('home', function () {
