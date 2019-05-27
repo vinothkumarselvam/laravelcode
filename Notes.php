@@ -13,9 +13,12 @@
 --- to hide some information in out application ---
 
 
-# LARAVEL COMMAND
+# LARAVEL COMMAND (using Terminals to execute the below command)
 --- php artisan serve : First the ping the public/index.php file ---
 --- php artisan route:list : this command is use to see the available routes file  ---
+--- php artisan make:controller controllername : use this command to create the controller.--
+
+
 
 # Controller file 
 app/http/controller file availabel

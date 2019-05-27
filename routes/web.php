@@ -11,18 +11,23 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome',['user' => 'Laravel Testing','company' => 'Deanta Publishing']);
-});
+// Route::get('/', function () {
+//     return view('welcome',['user' => 'Laravel Testing','company' => 'Deanta Publishing']);
+// });
 
-Route::get('home', function () {
-    return view('Pages.home');
-});
+Route::get('/', 'PageController@home');
+Route::get('home', 'PageController@homeindex');
+Route::get('aboutus', 'PageController@aboutus');
+Route::get('contact', 'PageController@contact');
 
-Route::get('aboutus', function () {
-    return view('Pages.aboutus');
-});
+// Route::get('home', function () {
+//     return view('Pages.home');
+// });
 
-Route::get('contact', function () {
-    return view('Pages.contact');
-});
+// Route::get('aboutus', function () {
+//     return view('Pages.aboutus');
+// });
+
+// Route::get('contact', function () {
+//     return view('Pages.contact');
+// });

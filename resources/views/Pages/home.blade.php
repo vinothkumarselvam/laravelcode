@@ -4,6 +4,7 @@
 
 
 @section('content')
+       
         <div class="content container pt-5">
                 <div class="jumbotron">
                     <h1 class="display-4">Hi Vinoth </h1>
@@ -34,5 +35,5 @@
                                 </div>
                         </div>
                 </div>
-        </div>
+        </div>  
 @endsection
